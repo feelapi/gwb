@@ -24,8 +24,8 @@
 /* macros */
 # define        mate(he)        (((he) == (he)->edg->he1) ? \
                                 (he)->edg->he2 : (he)->edg->he1)
-# define        max(x,y)        (((x) > (y)) ? (x) : (y))
-# define        abs(x)          (((x) > 0.0) ? (x) : -(x))
+// # define        max(x,y)        (((x) > (y)) ? (x) : (y))
+// # define        abs(x)          (((x) > 0.0) ? (x) : -(x))
 
 /* global variables */
 extern Id       maxf;           /* largest face no. given so far */

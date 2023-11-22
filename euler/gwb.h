@@ -1,4 +1,7 @@
+#pragma once
+
 # include <stdio.h>
+
 # define VAX 1
 
 typedef float                   vector[4];

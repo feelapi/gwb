@@ -20,11 +20,11 @@
 
 # include "gwb.h"
 
-HalfEdge        *addhe(e, v, where, sign)
-Edge            *e;
-Vertex          *v;
-HalfEdge        *where;
-int             sign;
+HalfEdge        *addhe(
+Edge            *e,
+Vertex          *v,
+HalfEdge        *where,
+int             sign)
 {
         HalfEdge        *he;
 

@@ -1,3 +1,10 @@
+# windows编译
+
+* cmake + VS2019
+* mkdir build
+* cd build && cmake -G "Visual Studio 16 2019" ..\
+
+编译出静态库，代码太老了，估计40年历史了
 
 
 Geometric WorkBench
